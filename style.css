@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    padding: rem;
+    font-size: 1.6rem;
+    color: #fff;
+    display: flex;
+}
+
+main {
+    width: 720px;
+    height: 780px;
+    background-color: #121214;
+    padding: 50px 30px;
+}
+
+main .logo {
+    width: 389px;
+    margin-bottom: 92px;
+}
+
+main h2 {
+    font-family: 'Work Sans', sans-serif;
+    color: hsla(148, 92%, 39%, 1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+}
+
+main h4 {
+    margin: .8rem 0;
+    width: 517px;
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.45px;
+    line-height: 16px;
+}
+
+.paragraf {
+
+    width: 647px;
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19px;
+    margin-bottom: 50px;
+}
+
+label {
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+    color: #A8A8A8;
+
+}
+
+.wrapper {
+    z-index: 99;
+    margin: 17px 0 50px;
+    position: absolute;
+    display: flex;
+}
+
+input {
+    width: 750px;
+    height: 48px;
+    border-left: 5px #04D361 solid;
+    padding: 17px 10px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 14px;
+    color: #6a6a6a;
+    border: 0;
+}
+
+.wrapper::before {
+    content: '';
+    width: 5px;
+    height: 48px;
+    background-color: #04d361;
+    display: block;
+
+
+}
+
+
+button {
+    height: 48px;
+    padding: 12px;
+    background: #8257E5;
+    border: 0;
+    cursor: pointer;
+}
+
+.link {
+    position: relative;
+    top: 112px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 138.73%;
+    color: #8257E5;
+}
+
+.imagem {
+
+    width: 780px;
+    height: 90rem;
+    position: relative;
+}
+
+.imagem img {
+    object-fit: cover;
+    width: fit-content;
+    z-index: -1;
+    height: 780px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
